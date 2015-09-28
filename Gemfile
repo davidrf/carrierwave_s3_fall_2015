@@ -21,13 +21,16 @@ end
 
 group :test do
   gem 'coveralls', require: false
-  gem 'pry-rails'
-  gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'launchy'
   gem 'valid_attribute'
   gem 'shoulda-matchers'
+end
+
+group :test, :development do
+  gem 'pry-rails'
+  gem 'rspec-rails'
 end
 
 group :production do
