@@ -12,6 +12,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'foundation-rails'
 gem 'devise'
+gem 'carrierwave'
+gem 'fog'
+gem 'dotenv-rails'
 
 group :development do
   gem 'web-console', '~> 2.0'
